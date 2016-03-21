@@ -7,6 +7,8 @@ using namespace std;
 class Graph{
 	int num_of_vertices;
 	list <int> *L;
+
+	// recursive implementation
 	void DFS(int v,bool visited[]){
 		visited[v] = true;
 		cout<<v<<" ";
@@ -38,7 +40,7 @@ public:
 };
 int main(){
 	ios_base::sync_with_stdio(false);
-	
+
 	Graph O(6);
     O.add(0, 2);
     O.add(2, 3);
