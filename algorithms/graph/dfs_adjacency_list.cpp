@@ -25,7 +25,7 @@ public:
 	Graph(int num){
 
 		this->num_of_vertices	= num;
-		L 						= new list <int> [num];
+		L = new list <int> [num];
 	}
 	void add(int v,int w){
 		L[v].push_back(w);
