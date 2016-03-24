@@ -8,7 +8,6 @@ class Graph{
 	int num_of_vertices;
 	list <int> *L;
 
-	// recursive implementation
 	void BFS(int v,bool visited[]){
 	    list<int> q;
 	    visited[v] = true;
